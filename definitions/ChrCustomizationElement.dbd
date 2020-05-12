@@ -1,0 +1,20 @@
+COLUMNS
+int ID?
+int<ChrCustomizationChoice::ID> ChrCustomizationChoiceID?
+int<ChrCustomizationChoice::ID> RelatedChrCustomizationChoiceID?
+int<ChrCustomizationGeoset::ID> ChrCustomizationGeosetID? // exclusive with ChrCustomizationSkinnedModelID, ChrCustomizationMaterialID, ChrCustomizationBoneSetID, ChrCustomizationCondModelID: only one of them is non-0 at a time
+int<ChrCustomizationSkinnedModel::ID> ChrCustomizationSkinnedModelID?
+int<ChrCustomizationMaterial::ID> ChrCustomizationMaterialID?
+int<ChrCustomizationBoneSet::ID> ChrCustomizationBoneSetID?
+int<ChrCustomizationCondModel::ID> ChrCustomizationCondModelID?
+
+LAYOUT 155D0538
+BUILD 9.0.1.34081, 9.0.1.34098, 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324
+$id$ID<32>
+ChrCustomizationChoiceID<32>
+RelatedChrCustomizationChoiceID<32>
+ChrCustomizationGeosetID<32>
+ChrCustomizationSkinnedModelID<32>
+ChrCustomizationMaterialID<32>
+ChrCustomizationBoneSetID<32>
+ChrCustomizationCondModelID<32>

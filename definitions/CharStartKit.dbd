@@ -1,0 +1,14 @@
+COLUMNS
+int ID
+locstring ZoneName_lang
+int<ChrClasses::ID> ChrClassesID?
+int<UiTextureAtlasElement::ID> ZoneImageAtlas
+int<ChrRaces::ID> ChrRacesID?
+
+LAYOUT CC89E761
+BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324
+$noninline,id$ID<32>
+ZoneName_lang
+ChrClassesID<8>
+ZoneImageAtlas<32>
+$noninline,relation$ChrRacesID<8>

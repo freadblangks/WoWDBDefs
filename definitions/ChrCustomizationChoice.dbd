@@ -1,0 +1,26 @@
+COLUMNS
+locstring Field_9_0_1_34081_000_lang?
+int ID
+int<ChrCustomizationOption::ID> ChrCustomizationOptionID?
+int<ChrCustomizationReq::ID> ChrCustomizationReqID?
+int OrderIndex? // per ChrCustomizationOptionID
+int Field_9_0_1_34137_005?
+int Color?
+
+LAYOUT 9DC934CE
+BUILD 9.0.1.34081, 9.0.1.34098
+Field_9_0_1_34081_000_lang
+$id$ID<32>
+ChrCustomizationOptionID<32>
+ChrCustomizationReqID<32>
+OrderIndex<32>
+
+LAYOUT 2BBAB38E
+BUILD 9.0.1.34137, 9.0.1.34199, 9.0.1.34278, 9.0.1.34324
+Field_9_0_1_34081_000_lang
+$id$ID<32>
+ChrCustomizationOptionID<32>
+ChrCustomizationReqID<32>
+OrderIndex<32>
+Field_9_0_1_34137_005<32>
+Color<32>
